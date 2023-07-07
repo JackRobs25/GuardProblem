@@ -1,3 +1,3 @@
 # artgallery-startup
 
-startup code for the art gallery project (computational geometry) 
+Users can draw a 2d simple polygon using mousclicks to place each vertex ('s' to start drawing and 'e' to stop drawing). Then by pressing 'g' the user's mouse clicks now place down a guard (displayed as a dot) (NB the guard must be placed inside the museum - he wouldn't be much use outside). Once the user has placed all the intended guards, 'a' animates the guards causing them to move randomly within the confines of the museum. the portion of the museum that can be seen from each guard is displayed by a transparent polygon which updates as the guard moves. This program can be used to solve the guard problem which seeks to determine how many guards are required so that all space in the museum can be monitored at once.
